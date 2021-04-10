@@ -1,0 +1,7 @@
+version: '3'
+services:
+    client: # It’s important that the name is different than the one we used in the API project
+        build:
+            context: .
+        ports:
+            - 5000:3000
